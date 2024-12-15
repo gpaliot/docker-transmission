@@ -1,0 +1,6 @@
+#!/bin/bash
+while true
+  do
+    /app/proton_wg_natpmp.sh
+    sleep 45
+  done

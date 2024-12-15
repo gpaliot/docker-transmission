@@ -16,6 +16,7 @@ RUN \
     build-base && \
   echo "**** install packages ****" && \
   apk add --no-cache \
+    libnatpmp \
     findutils \
     p7zip \
     python3 && \
