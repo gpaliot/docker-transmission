@@ -36,6 +36,3 @@ jobs:
           context: . # Or specify the directory containing your Dockerfile
           push: true
           tags: ${{ secrets.DOCKER_USERNAME }}/transmission:proton-natpmp
-
-      - name: Logout of Docker Hub
-        uses: docker/logout-action@v2
